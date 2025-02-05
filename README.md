@@ -22,3 +22,9 @@
   - 示例图如下：
 
  ![image](https://github.com/user-attachments/assets/a85c89da-f41e-47d6-b3ab-8958ddb64dfb)
+
+## 当前database的EER
+
+
+![image](https://github.com/user-attachments/assets/17d4ce21-2bc4-4e04-a6b5-bb2d6e2efb83)
+
