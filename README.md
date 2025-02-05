@@ -9,7 +9,7 @@
   - `main.py` 的主要功能是利用之前的 Top 100 `movie_id`，爬取每部电影的 100 条相关评论。
 
 - `Bert.py`、`XGBosst+NB.py`：
-  - 包含三个模型的训练与结果分析：
+  - 包含三个模型的训练与结果分析，其中每条电影评论的sentiment标签由VADER生成：
 
 | 模型         | Accuracy | Precision | Recall | F1-Score |
 |--------------|----------|-----------|--------|----------|
@@ -18,7 +18,7 @@
 | **XGBoost**  | 0.8523   | 0.5738    | 0.6300 | 0.6006   |
 
 - `Word_cloud.py`：
-  - 对每部电影的评论生成独立的词云图，帮助直观分析评论内容。
+  - 对每部电影的评论生成独立的词云图，帮助直观分析评论内容（Remove Stopwords和电影行业常见Stopwords）。
   - 示例图如下：
 
  ![image](https://github.com/user-attachments/assets/a85c89da-f41e-47d6-b3ab-8958ddb64dfb)
